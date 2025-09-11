@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Files/Web%20Dev%20%26%20AI/Projects/NetworkGuard/mlruns/0/models/m-76b3710cf83545f4b6ae8e7238f5ba57/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.3.2
+model_id: m-76b3710cf83545f4b6ae8e7238f5ba57
+model_size_bytes: 27166848
+model_uuid: m-76b3710cf83545f4b6ae8e7238f5ba57
+prompts: null
+run_id: 30d6394fec5948ea8a82b8eb3ea43b8f
+utc_time_created: '2025-09-11 13:19:22.628207'

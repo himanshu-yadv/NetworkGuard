@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Files/Web%20Dev%20%26%20AI/Projects/NetworkGuard/mlruns/0/models/m-c31484f27e2f47dfb5a286b6415d7290/artifacts
+creation_timestamp: 1757596765264
+experiment_id: '0'
+last_updated_timestamp: 1757596767535
+model_id: m-c31484f27e2f47dfb5a286b6415d7290
+model_type: null
+name: model
+source_run_id: dd138ea641574cef9590701f1a35b520
+status: 2
+status_message: null
