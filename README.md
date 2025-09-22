@@ -80,6 +80,7 @@ This project aims to build and deploy a machine learning model that can classify
 
 ## Project Structure
 
+```bash
 ├── .github/workflows/main.yml
 ├── .gitignore
 ├── Dockerfile
