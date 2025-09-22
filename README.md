@@ -79,3 +79,37 @@ This project aims to build and deploy a machine learning model that can classify
 ---
 
 ## Project Structure
+
+.
+├── .github/workflows/main.yml   # GitHub Actions workflow
+├── .gitignore
+├── Dockerfile                   # Docker configuration
+├── Network_Data/phisingData.csv # Sample data
+├── README.md
+├── app.py                       # FastAPI application
+├── data_schema/schema.yaml      # Data schema definition
+├── main.py                      # Main script to run the training pipeline
+├── networkguard/                # Main project package
+│   ├── cloud/s3_syncer.py
+│   ├── components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   ├── data_validation.py
+│   │   └── model_trainer.py
+│   ├── constants/training_pipeline/init.py
+│   ├── entity/
+│   │   ├── artifact_entity.py
+│   │   └── config_entity.py
+│   ├── exceptionhandling/exception.py
+│   ├── logging/logger.py
+│   ├── pipeline/training_pipeline.py
+│   └── utils/
+│       ├── main_utils/utils.py
+│       └── ml_utils/
+│           ├── metric/classification_metric.py
+│           └── model/estimator.py
+├── push_data.py
+├── requirements.txt             # Project dependencies
+├── setup.py                     # Setup script for the package
+├── templates/table.html         # HTML template for predictions
+└── valid_data/test.csv          # Sample test data
